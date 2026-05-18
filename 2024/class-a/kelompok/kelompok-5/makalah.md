@@ -1,4 +1,4 @@
-# INSTALASI BASE ARCH LINUX
+  # INSTALASI BASE ARCH LINUX
 Tugas ini disusun untuk memenuhi tugas mata kuliah Perpustakaan dan Arsip Digital
 
 
@@ -166,25 +166,27 @@ Untuk sistem UEFI, pasang partisi ke ```/mnt/boot```:
 
 1. Persiapan Sebelum Instalasi
 a. Dapaktkan file ISO Arch Linux berikut link "archlinux.org/download/" pastikan sudah ada signature
+b. cek wifi
+
 b. partisi disk menggunakan mini partition wizard
 c. siapkan flashdisk minimal 8gb
 
-2. Masukan ISO ke flashdisk
-3. boot ke live environment
-4. pastikan masuk ke boot installer UEFI bukan BIOS
-5. Konek ke Internet
-6. Sinkronisasi waktu
-7. Partisi Disk
-8. Mount filesystem
-9. Instalasi sistem dasar
-10. Membuat Fstab
-11. masuk ke sistem boot
-12. mengatur timezone
-13. localization
-14. generate Initframs
-15. password
-16. install bootloader GRUB2
-17. Reboot
+3. Masukan ISO ke flashdisk
+4. boot ke live environment
+5. pastikan masuk ke boot installer UEFI bukan BIOS
+6. Konek ke Internet
+7. Sinkronisasi waktu
+8. Partisi Disk
+9. Mount filesystem
+10. Instalasi sistem dasar
+11. Membuat Fstab
+12. masuk ke sistem boot
+13. mengatur timezone
+14. localization
+15. generate Initframs
+16. password
+17. install bootloader GRUB2
+18. Reboot
 
 
 ## Penutup
