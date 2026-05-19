@@ -11,8 +11,10 @@ Cek Connect Wifi
 ```
 iwctl
 ```
-station wlan0 connect (nama wifi)  
-(abis itu dicek, buat udah ter-connect wifi belum)
+```
+station wlan0 connect (nama wifi)
+```
+(abis itu dicek, udah ter-connect wifi belum)
 ```
 exit
 ```
@@ -23,8 +25,9 @@ ping 8.8.8.8
 ```
 pacman -S plasma networkmanager piperwire dolphin kitty
 ```
-jika terjadi eror : 
+jika terjadi eror, seperti : 
 <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/c28a04bf-171d-4011-9b9a-7c433047ce02" />
+maka ketik;
 ```
 systemctl restart systemd - resolved
 ```
