@@ -164,4 +164,48 @@ habis ni ctrl+c
 
 ---
 
+# Sinkronisasi Waktu
+
+```bash
+timedatectl
+```
+
+### Penjelasan
+Jam sistem harus benar agar verifikasi SSL dan package signature tidak gagal.
+
+untuk partisi pakai lsblk. Untuk melihat partisi yang akan dipakai dari 50 gb tadi
+<img width="1599" height="899" alt="WhatsApp Image 2026-05-14 at 9 38 07 PM (1)" src="https://github.com/user-attachments/assets/9f64b4ac-1a4c-4a78-b790-edc7dff007af" />
+
+Berikut nya gunakan cfdisk /dev/nvme0n1 (bisa jadi sda sesuai hardisk)
+<img width="1599" height="899" alt="WhatsApp Image 2026-05-14 at 9 48 16 PM" src="https://github.com/user-attachments/assets/457b1dc0-da8c-4a58-aa4e-d498013ccb72" />
+
+Geser ke kiri untuk ke new dan masukkan untuk partisinya 512M, 4G, (dan sisa dari berapa partisi)
+<img width="1599" height="899" alt="WhatsApp Image 2026-05-14 at 9 51 02 PM" src="https://github.com/user-attachments/assets/ae5c3765-8289-44de-a272-af0462f88004" />
+
+Gunakan Tombol ini untuk navigasi (Geser kanan & Kiri)
+<img width="1599" height="899" alt="WhatsApp Image 2026-05-14 at 9 51 15 PM" src="https://github.com/user-attachments/assets/74a4787d-52d2-4301-b262-0bc1393d101d" />
+
+Masukan angka 4G, 512M Dan sisa ruang partisi untuk root. Contoh dari 50G Setelah di partisi menjadi sisa 44,3G Maka masukan 44,5G
+<img width="1599" height="899" alt="WhatsApp Image 2026-05-14 at 9 53 02 PM" src="https://github.com/user-attachments/assets/d06d0474-f66a-4787-8d0b-6ac699c4293f" />
+
+Sebelum enter bagian write, pastikan untuk partisinya sudah di setting type nya (512M Untuk EFI, 4G Untuk Swap dan sisa ruang partisi untuk root)
+<img width="1599" height="899" alt="WhatsApp Image 2026-05-14 at 9 53 54 PM" src="https://github.com/user-attachments/assets/c077b472-9fd4-44a1-8d90-2579adcb9264" />
+
+Setelah write, geser ke opsi quit dan enter
+
+ Struktur Partisi yang Disarankan
+
+UEFI
+
+| Mount Point | Fungsi |
+|---|---|
+| `/boot` | EFI Partition |
+| `swap` | Virtual memory |
+| `/` | Root system |
+
+Selajutnya masuk ke tahap formating yaitu format partisi, swapping dan format EFI
+Catatan : Partisi harus sesuai dengan type yang sudah di write tadi. jika sampai salah, dapat menyebabkan data di partisi hilang karena datanya telah timpa (salah satu nya Kehilangan OS). Untuk memastikan kembali partisi untuk digunakan agar tidak salah, ketik lslbk. kemudian lihat dan ingat semua type partisinya.
+
+<img width="1599" height="899" alt="WhatsApp Image 2026-05-14 at 9 38 07 PM (2)" src="https://github.com/user-attachments/assets/d55b8c13-a684-42ed-9199-0b69556888f5" />
+Seperti disini contohnya untuk yang Format EFI Yaitu yang ukuran 512M, Swap 4G Dan Root 44.3G
 
