@@ -9,7 +9,7 @@ Langkah awal sebelum instalasi adalah download file ISO Arch Linux. ini nanti di
 ![gambar negara iso](https://cdn.corenexis.com/files/c/7569511720.png)   
 
 
-![gambar pilihan iso]https://cdn.corenexis.com/files/c/8442542720.png 
+![gambar pilihan iso](https://cdn.corenexis.com/files/c/8442542720.png) 
 
 Setelah itu pilih file ISO yang paling atas.
 
