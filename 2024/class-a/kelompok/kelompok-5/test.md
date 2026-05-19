@@ -65,7 +65,10 @@ fdisk -l
 
 ### masuk ke disk yang mau dipartisi
 disini disk yang mau saya partisi adalah ```nvme0n1```
-untuk format disk ketik ```fdisk```
+untuk format disk ketik 
+```
+fdisk /dev/nvme0n1
+```
 
 
 <img width="566" height="757" alt="image" src="https://github.com/user-attachments/assets/45b27646-d826-488b-b53a-48960bfde1ee" />
