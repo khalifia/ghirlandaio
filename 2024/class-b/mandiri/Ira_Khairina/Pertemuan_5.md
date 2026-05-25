@@ -28,4 +28,9 @@ Setelah dipertimbangkan terdapat sejumlah keuntungan dan efisiensi yang didapat 
 
 ## BAB Ⅲ PENUTUP
 ### 3.1 Kesimpulan
+Pengelolaan perpustakaan dan arsip digital dengan integritas teknologinya memiliki sejumlah manfaat diantaranya: pencarian koleksi yang dilakukan secara cepat, memudahkan pada proses modifikasi dan pengindeksan yang dapat menghemat biaya, waktu juga tenaga, proses pencarian dapat dilakukan dengan kata kunci dan menemukan koleksi, potensi kehilangan koleksi, menghemat tempat penyimpanan, meminimalkan risiko kerusakan pada koleksi, berbagi koleksi dilakukan secara mudah, meningkatkan keamanan, serta mudah dalam proses pemulihan data. 
 
+# DAFTAR PUSTAKA
+Wulandari, D. S. & Ismaya. (2023). Pengelolaan Arsip Elektronik di Era Digital. IKOMIK: Jurnal Ilmu Komunikasi dan Informasi, 3(2), 39–43. https://doi.org/10.33830/ikomik.v3i2.5252
+
+Salmi Addin, H., Anggraini, H., Nur Riya Putri Yenti, H., Wandan Sari, F., & Hidayat, I. (2024). Strategi Pengembangan Koleksi Perpustakaan Digital. Media Informasi, 33(1), 88–95. https://doi.org/10.22146/mi.v33i1.11481
