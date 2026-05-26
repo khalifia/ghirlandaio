@@ -1,3 +1,4 @@
+## Instalasi Arch Linux
 <img width="963" height="1280" alt="WhatsApp Image 2026-05-26 at 20 28 25" src="https://github.com/user-attachments/assets/c32fe7af-13c3-4255-ae2b-ae9c7f807335" />
 <img width="1280" height="963" alt="WhatsApp Image 2026-05-26 at 20 28 25 (1)" src="https://github.com/user-attachments/assets/c0917962-aae5-4bde-858f-defad7fa07a5" />
 <img width="1280" height="963" alt="WhatsApp Image 2026-05-26 at 20 28 26" src="https://github.com/user-attachments/assets/69a27de9-880a-4a2d-a1ca-52e56cf0d82a" />
